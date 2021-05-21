@@ -1,0 +1,8 @@
+<%- include("partials/header"); -%>
+<h1>hello world</h1>
+<p><%= jack %></p>
+<% for(var i=0;i<lol.length;i++){ %>
+<h1><%=lol[i].title%></h1>
+<p> <%=lol[i].content %></p>
+<%}%>
+<%- include("partials/footer"); -%>
